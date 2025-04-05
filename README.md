@@ -1,1 +1,1 @@
-https://github.com/BOMS2/blankstudio
+🌐https://boms2.github.io/blankstudio.github.io/
