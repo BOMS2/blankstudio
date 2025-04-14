@@ -4,6 +4,38 @@ title: About
 permalink: /about
 ---
 
-# Portfolio Jekyll
+# 블랭크 스튜디오
 
-This is a personal portfolio theme that I built from the ground up, using the [DevTips Starter Kit](http://devtipsstarterkit.com/) as a foundation for starting, and following closely the amazing tutorial by [Travis Neilson over at DevTips](https://www.youtube.com/watch?v=T6jKLsxbFg4&list=PL0CB3OvPhDA_STygmp3sDenx3UpdOMk7P). You can [check out the demo](lenpaul.github.io/portfolio-jekyll-theme/), and [fork the repository](https://github.com/LeNPaul/portfolio-jekyll-theme/fork), to get started.
+웨딩&기업&각종 행사 이동식 포토부스 블랭크 스튜디오입니다 :D​​
+블랭크 스튜디오 포토부스는 즐거웠던 행사를 머리 속에 ‘기억’으로 남기고 점차 사라지는 것이 아니라 주최자와 참여자들이 스스로 참여하여 
+‘빈칸’을 ‘추억’으로 직접 기록하고 채워지면 좋겠다라는 생각과
+​Fill in the blanks with memories♡
+추억으로 빈칸을 채워드립니다🖤 라는 이념으로 고객님들을 기다리고 있습니다:D
+
+
+What is Blank studio photobooth?
+블랭크 스튜디오 포토부스는 무엇인지?
+​
+블랭크 스튜디오는 이동식 포토부스입니다.
+즐거운 행사의 추억들을 주최자와 참여자까지 함께 즐기며 기록하고 있습니다.
+​
+지금부터 행사를 함께 즐길 블랭크 스튜디오를 소개해드리겠습니다:D​​
+
+Step.1 각도 조절 
+포토부스의 각도 조절로 행사에 참여하는 참여자분들의 키에 맞게 키가 작은 분들부터 키가 크신 분들까지 👫 예쁜 각도로 편하게 이용이 가능합니다.
+(까치발을 들거나 허리를 숙일 필요가 없습니다 😀)​​
+
+Step.2 자체 조명
+블랭크스튜디오의 포토부스는 반사판이나 조명을 개별 설치로 행사장을 혼잡하게 만들지 않고
+​기기 자체에 조명이 탑재가 되어 ✨ 피부톤에 맞는 조명을 선택이 가능합니다.
+
+Step.3 최신 카메라 사용
+저희 블랭크스튜디오 포토부스는 DSLR카메라📷를 사용하고 있어 웹캠(FHD)을 사용하고 있는 포토부스 업체와 다른 퀄리티를 보여드립니다.​​
+
+Step.4 트렌디하고 다양한 디자인
+배경(백드롭), 인생네컷과 동일한 2*6 사이즈인 프레임(포토스트립) 등 다양한 디자인들이 준비되어 있고 시즌과 유행에 맞춰 업데이트하고 있습니다. 
+문의 주시면 더 많은 디자인들을 볼 수 있습니다 !
+
+
+더 많은 후기와 문의는 
+[인스타그램](https://www.instagram.com/blankstudio_photobooth/) 혹은 [네이버블로그](https://blog.naver.com/blank_studio_/223120974480)에서 보실 수 있습니다 🤍🖤

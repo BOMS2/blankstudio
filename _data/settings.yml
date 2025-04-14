@@ -2,7 +2,7 @@
 # General Site Settings
 
 menu:
-- {name: 'Projects', url: ''}
+- {name: 'Home', url: ''}
 - {name: 'Blog',     url: 'blog'}
 - {name: 'About',    url: 'about'}
 - {name: 'Contact',  url: 'contact'}
@@ -11,21 +11,20 @@ menu:
 # Projects Section
 
 projects:
-- {name: 'Project One',   url: 'proj-1'}
-- {name: 'Project Two',   url: 'proj-2'}
-- {name: 'Project Three', url: 'proj-3'}
-- {name: 'Project Four',  url: 'proj-4'}
-- {name: 'Project Five',  url: 'proj-5'}
+- {name: '포토부스 이용 가이드',   url: 'proj-1'}
+- {name: '업로드 예정',   url: 'proj-2'}
+- {name: '업로드 예정', url: 'proj-3'}
+- {name: '업로드 예정',  url: 'proj-4'}
+- {name: '업로드 예정',  url: 'proj-5'}
 
 #-------------------------------
 # Contact Section
 
 social:
-- {icon: 'twitter',   link: 'https://twitter.com/paululele'}
-- {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'github',    link: 'https://github.com/lenpaul'}
-- {icon: 'linkedin',  link: 'https://linkedin.com/in/lenpaul'}
-- {icon: 'envelope',  link: 'mailto:mailto:l.nguyen.paul@gmail.com'}
+- {icon: 'linkedin',   link: 'https://litt.ly/blankstudio'}
+- {icon: 'instagram', link: 'https://www.instagram.com/blankstudio_photobooth/'}
+- {icon: 'vine',  link: 'https://blog.naver.com/blank_studio_'}
+- {icon: 'google-plus',  link: 'https://pf.kakao.com/_nxgxeDxj'}
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
 
@@ -35,9 +34,9 @@ social:
 # NOTE: Providing SEO information will make this website more searchable on the internet.
 
 seo:
-  description: 'Personal portfolio powered by Jekyll and GitHub Pages '
-  rel-author: 'https://plus.google.com/u/0/#'
-  rel-publisher: 'https://plus.google.com/u/0/#'
+  description: 'blank studio'
+  rel-author: 'https://litt.ly/blankstudio'
+  rel-publisher: 'https://litt.ly/blankstudio'
 
 #-------------------------------
 # Google Analytics Section

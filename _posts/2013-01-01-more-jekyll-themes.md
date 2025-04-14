@@ -1,22 +1,10 @@
 ---
 layout: post
-title: "More Jekyll Themes!"
+title: "[웨딩포토부스 찐후기] 인천 부평 웨스턴팰리스웨딩홀 🖤"
 ---
 
-#### Lagrange
+안녕하세요 블랭크 스튜디오 포토부스입니다 :D
 
-Lagrange is a minimalist Jekyll blog theme that I built from scratch. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog.
-
-Feel free to check out <a href="https://lenpaul.github.io/Lagrange/" target="_blank">the demo</a>, where you’ll also find instructions on <a href="https://lenpaul.github.io/Lagrange/journal/getting-started.html">how to use install</a> and use the theme.
-
-#### Millennial
-
-Millennial is a minimalist Jekyll blog theme that I built from scratch. The purpose of this theme is to provide a simple, clean, content-focused publishing platform for a publication or blog.
-
-Feel free to check out <a href="https://lenpaul.github.io/Millennial/" target="_blank">the demo</a>, where you’ll also find instructions on <a href="https://lenpaul.github.io/Millennial/documentation/getting-started.html">how to use install</a> and use the theme.
-
-#### Jekyll Starter Kit
-
-The Jekyll Starter Kit is a simple framework for starting your own Jekyll project using all of the best practices that I learned from building my other Jekyll themes.
-
-Feel free to check out <a href="https://github.com/LeNPaul/jekyll-starter-kit" target="_blank">the GitHub repository</a>, where you’ll also find instructions on how to use install and use the theme.
+<a href="http://www.westernpalacewedding.co.kr/" target="_blank">인천 부평 웨스턴팰리스 웨딩홀</a>에서 결혼하신 신부님 친구분께서 후기를 작성해주셨습니다! :)
+블랭크스튜디오를 선택해주셔서 정말 감사드립니다..🖤
+앞으로도 더욱 친절하게 상담 도와드리는 블랭크스튜디오가 되어야겠습니다 ☺

@@ -7,6 +7,6 @@ plugins:   [jekyll-sitemap, jekyll-feed,  jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 
-title:		   "Blank Studio Photobooth"
+title:		   "Blank Studio"
 description: "Powered by Blank Studio Photobooth"
 author:      "Blank Studio Photobooth"

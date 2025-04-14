@@ -6,4 +6,5 @@ permalink: /contact
 
 # Contact
 
-You may contact me [through my email](mailto:l.nguyen.paul@gmail.com) or [tweet at me](https://twitter.com/intent/tweet?text=%40paululele) if you have any questions or would like to bring up any issues.
+더 많은 정보와 문의는 
+[인스타그램](https://www.instagram.com/blankstudio_photobooth/) 혹은 [블랭크스튜디오 링크](https://litt.ly/blankstudio)에서 보실 수 있습니다 🤍🖤
