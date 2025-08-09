@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/more-jekyll-themes</loc>
-<lastmod>2013-01-01T00:00:00+09:00</lastmod>
+<loc>http://localhost:4000/beerfestival</loc>
+<lastmod>2023-06-30T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/text-formatting-examples</loc>
-<lastmod>2014-01-01T00:00:00+09:00</lastmod>
+<loc>http://localhost:4000/%EC%8B%A0%EB%8F%84%EB%A6%BC%EB%9D%BC%EB%A7%88%EB%8B%A4%ED%98%B8%ED%85%94</loc>
+<lastmod>2023-07-03T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/getting-started</loc>
-<lastmod>2017-01-01T00:00:00+09:00</lastmod>
+<loc>http://localhost:4000/%EC%B6%98%EC%B2%9C%EB%AF%B8%EB%9E%98%EC%9B%A8%EB%94%A9%ED%99%801%EC%B8%B5</loc>
+<lastmod>2024-07-01T00:00:00+09:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about</loc>
