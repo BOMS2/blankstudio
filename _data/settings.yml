@@ -12,7 +12,7 @@ menu:
 
 projects:
 - {name: '포토부스 이용 가이드',   url: 'proj-1'}
-- {name: '업로드 예정',   url: 'proj-2'}
+- {name: '예약 전 확인 사항',   url: 'proj-2'}
 - {name: '업로드 예정', url: 'proj-3'}
 - {name: '업로드 예정',  url: 'proj-4'}
 - {name: '업로드 예정',  url: 'proj-5'}
