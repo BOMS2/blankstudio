@@ -56,23 +56,330 @@
   </head>
   <body>
     <div class="site-container">
-      <header>
-  <div class="logo">
-    <a href="/">Blank Studio</a>
-  </div>
-  <nav>
-    
-      <a href="/">Home</a>
-    
-      <a href="/blog">Blog</a>
-    
-      <a href="/about">About</a>
-    
-      <a href="/contact">Contact</a>
-    
-  </nav>
-</header>
+      <header class="bs-header">
+  <div class="bs-header__inner">
+    <a class="bs-header__brand" href="/" aria-label="Blank Studio">
+      <span class="bs-header__brand-text">Blank Studio</span>
+    </a>
 
+    <button
+      class="bs-header__toggle"
+      type="button"
+      aria-label="Toggle navigation"
+      aria-controls="bs-nav"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="bs-header__nav" id="bs-nav" aria-label="Primary">
+      <ul class="bs-header__menu">
+        
+          
+          
+          
+
+          
+
+          <li class="bs-header__item">
+            <a
+              class="bs-header__link "
+              href="/"
+              
+            >
+              Home
+            </a>
+          </li>
+        
+          
+          
+          
+
+          
+
+          <li class="bs-header__item">
+            <a
+              class="bs-header__link "
+              href="/blog"
+              
+            >
+              Blog
+            </a>
+          </li>
+        
+          
+          
+          
+
+          
+
+          <li class="bs-header__item">
+            <a
+              class="bs-header__link "
+              href="/about"
+              
+            >
+              About
+            </a>
+          </li>
+        
+          
+          
+          
+
+          
+
+          <li class="bs-header__item">
+            <a
+              class="bs-header__link "
+              href="/contact"
+              
+            >
+              Contact
+            </a>
+          </li>
+        
+      </ul>
+    </nav>
+  </div>
+
+  <style>
+    .bs-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      padding: 16px 20px 0;
+      pointer-events: none;
+    }
+
+    .bs-header__inner {
+      pointer-events: auto;
+      max-width: 1180px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 12px 14px;
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.14);
+      backdrop-filter: blur(16px) saturate(160%);
+      -webkit-backdrop-filter: blur(16px) saturate(160%);
+      box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.08),
+        inset 0 1px 0 rgba(255, 255, 255, 0.18);
+    }
+
+    .bs-header__brand {
+      flex: 0 0 auto;
+      text-decoration: none;
+      min-width: 0;
+    }
+
+    .bs-header__brand-text {
+      display: inline-block;
+      padding: 10px 14px;
+      border-radius: 999px;
+      color: #111;
+      font-size: 0.95rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1;
+      transition: background-color 0.2s ease, transform 0.2s ease;
+    }
+
+    .bs-header__brand:hover .bs-header__brand-text {
+      background: rgba(255, 255, 255, 0.24);
+      transform: translateY(-1px);
+    }
+
+    .bs-header__nav {
+      margin-left: auto;
+    }
+
+    .bs-header__menu {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .bs-header__item {
+      margin: 0;
+      padding: 0;
+    }
+
+    .bs-header__link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 14px;
+      border-radius: 999px;
+      text-decoration: none;
+      color: rgba(17, 17, 17, 0.82);
+      font-size: 0.95rem;
+      font-weight: 600;
+      line-height: 1;
+      white-space: nowrap;
+      transition:
+        background-color 0.2s ease,
+        color 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+    }
+
+    .bs-header__link:hover {
+      background: rgba(255, 255, 255, 0.3);
+      color: #111;
+      transform: translateY(-1px);
+    }
+
+    .bs-header__link.is-active {
+      background: rgba(255, 255, 255, 0.55);
+      color: #111;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+    }
+
+    .bs-header__toggle {
+      display: none;
+      flex: 0 0 auto;
+      width: 44px;
+      height: 44px;
+      padding: 0;
+      border: 0;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.24);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      cursor: pointer;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .bs-header__toggle span {
+      display: block;
+      width: 18px;
+      height: 2px;
+      border-radius: 999px;
+      background: #111;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+
+    @media (max-width: 768px) {
+      .bs-header {
+        padding: 12px 14px 0;
+      }
+
+      .bs-header__inner {
+        position: relative;
+        border-radius: 24px;
+        padding: 10px;
+      }
+
+      .bs-header__toggle {
+        display: inline-flex;
+      }
+
+      .bs-header__nav {
+        position: absolute;
+        top: calc(100% + 10px);
+        left: 0;
+        right: 0;
+        margin-left: 0;
+        padding: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.22);
+        border-radius: 24px;
+        background: rgba(255, 255, 255, 0.18);
+        backdrop-filter: blur(18px) saturate(160%);
+        -webkit-backdrop-filter: blur(18px) saturate(160%);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-8px);
+        transition:
+          opacity 0.22s ease,
+          visibility 0.22s ease,
+          transform 0.22s ease;
+      }
+
+      .bs-header__nav.is-open {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+      }
+
+      .bs-header__menu {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 6px;
+      }
+
+      .bs-header__link {
+        width: 100%;
+        justify-content: flex-start;
+        padding: 14px 16px;
+      }
+
+      .bs-header__toggle[aria-expanded="true"] span:nth-child(1) {
+        transform: translateY(6px) rotate(45deg);
+      }
+
+      .bs-header__toggle[aria-expanded="true"] span:nth-child(2) {
+        opacity: 0;
+      }
+
+      .bs-header__toggle[aria-expanded="true"] span:nth-child(3) {
+        transform: translateY(-6px) rotate(-45deg);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .bs-header__link,
+      .bs-header__brand-text,
+      .bs-header__nav,
+      .bs-header__toggle span {
+        transition: none;
+      }
+    }
+  </style>
+
+  <script>
+    (function () {
+      var toggle = document.querySelector('.bs-header__toggle');
+      var nav = document.querySelector('.bs-header__nav');
+
+      if (!toggle || !nav) return;
+
+      toggle.addEventListener('click', function () {
+        var expanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', String(!expanded));
+        nav.classList.toggle('is-open', !expanded);
+      });
+
+      document.addEventListener('click', function (event) {
+        var clickedInsideHeader = event.target.closest('.bs-header__inner');
+        if (!clickedInsideHeader && nav.classList.contains('is-open')) {
+          toggle.setAttribute('aria-expanded', 'false');
+          nav.classList.remove('is-open');
+        }
+      });
+
+      window.addEventListener('resize', function () {
+        if (window.innerWidth > 768) {
+          toggle.setAttribute('aria-expanded', 'false');
+          nav.classList.remove('is-open');
+        }
+      });
+    })();
+  </script>
+</header>
       <section>
   <div class="post-container">
     <h4 class="project-title">[축제] 천안 복자여자중학교 축제 제18회 항목제 🏫</h4>
