@@ -19,7 +19,7 @@
     <nav class="bs-header__nav" id="bs-nav" aria-label="Primary">
       <ul class="bs-header__menu">
         {% for item in site.data.settings.menu %}
-          {% assign item_path = '/' | append: item.url | append: '/' | replace: '//', '/' %}
+          {% assign item_path = '/' | append: item.url | replace: '//', '/' %}
           {% assign current_path = page.url | replace: 'index.html', '' %}
           {% assign is_active = false %}
 
@@ -32,7 +32,7 @@
           <li class="bs-header__item">
             <a
               class="bs-header__link {% if is_active %}is-active{% endif %}"
-              href="{{ site_root }}{{ item.url | prepend: '/' }}/"
+              href="{{ site_root }}{{ item.url | prepend: '/' }}"
               {% if is_active %}aria-current="page"{% endif %}
             >
               {{ item.name }}
