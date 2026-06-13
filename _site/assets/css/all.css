@@ -183,24 +183,53 @@ td, th {
   padding: 0;
 }
 
-@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 300;
-  src: local("Open Sans Light"), local("OpenSans-Light"), url(//themes.googleusercontent.com/static/fonts/opensans/v8/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format("woff");
-}
-@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Open Sans"), local("OpenSans"), url(//themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format("woff");
-}
-@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 700;
-  src: local("Open Sans Bold"), local("OpenSans-Bold"), url(//themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format("woff");
-}
+@font-face font-family: "Noto Sans KR"
+  font-style: normal
+  font-weight: 100
+  font-display: swap
+  src: local("Noto Sans KR Thin"), local("NotoSansKR-Thin"), url("../fonts/NotoSansKR-Thin.ttf") format("truetype")
+@font-face
+  font-family: "Noto Sans KR"
+  font-style: normal
+  font-weight: 300
+  font-display: swap
+  src: local("Noto Sans KR Light"), local("NotoSansKR-Light"), url("../fonts/NotoSansKR-Light.ttf") format("truetype")
+@font-face
+  font-family: "Noto Sans KR"
+  font-style: normal
+  font-weight: 400
+  font-display: swap
+  src: local("Noto Sans KR Regular"), local("NotoSansKR-Regular"), url("../fonts/NotoSansKR-Regular.ttf") format("truetype")
+@font-face
+  font-family: "Noto Sans KR"
+  font-style: normal
+  font-weight: 500
+  font-display: swap
+  src: local("Noto Sans KR Medium"), local("NotoSansKR-Medium"), url("../fonts/NotoSansKR-Medium.ttf") format("truetype")
+@font-face
+  font-family: "Noto Sans KR"
+  font-style: normal
+  font-weight: 600
+  font-display: swap
+  src: local("Noto Sans KR SemiBold"), local("NotoSansKR-SemiBold"), url("../fonts/NotoSansKR-SemiBold.ttf") format("truetype")
+@font-face
+  font-family: "Noto Sans KR"
+  font-style: normal
+  font-weight: 700
+  font-display: swap
+  src: local("Noto Sans KR Bold"), local("NotoSansKR-Bold"), url("../fonts/NotoSansKR-Bold.ttf") format("truetype")
+@font-face
+  font-family: "Noto Sans KR"
+  font-style: normal
+  font-weight: 800
+  font-display: swap
+  src: local("Noto Sans KR ExtraBold"), local("NotoSansKR-ExtraBold"), url("../fonts/NotoSansKR-ExtraBold.ttf") format("truetype")
+@font-face
+  font-family: "Noto Sans KR"
+  font-style: normal
+  font-weight: 900
+  font-display: swap
+  src: local("Noto Sans KR Black"), local("NotoSansKR-Black"), url("../fonts/NotoSansKR-Black.ttf") format("truetype");
 /* 
   Animation: bounceOut
   Source: Bounce.Js */
@@ -705,7 +734,7 @@ body {
   background: #fff;
   font-size: 14px;
   line-height: 1.6;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   color: #666;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
@@ -907,7 +936,7 @@ footer .footer-wrap .social-media nav a:hover {
 }
 body {
   background: white;
-  font-family: "Roboto", sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-size: 16px;
 }
 

@@ -1,4 +1,5 @@
 ---
-layout: home
-title: Home
+layout: intro
+title: BlankStudio PhotoBooth
+description: BlankStudio PhotoBooth intro landing page
 ---
