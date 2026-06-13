@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
+    {% include site-root.html %}
     <meta charset="UTF-8">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +13,8 @@
         {{ site.title }}
       {% endif %}
     </title>
-    <link rel="stylesheet" href="{{ '/assets/css/intro.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ site_root }}/assets/css/intro.css">
+    <link rel="stylesheet" href="{{ site_root }}/assets/css/fonts.css">
     {% seo %}
   </head>
   <body class="intro-body">
@@ -27,7 +29,7 @@
             <span>조금 더 특별하게</span>
           </h1>
 
-          <a class="intro-cta" href="{{ '/home/' | relative_url }}">
+          <a class="intro-cta" href="{{ site_root }}/home/">
             <span>Show BlankStudio</span>
             <span class="intro-cta__arrow" aria-hidden="true">→</span>
           </a>
@@ -39,17 +41,17 @@
 
     <script>
       window.__INTRO_ASSETS__ = [
-        "{{ '/assets/img/intro/camera.png' | relative_url }}",
-        "{{ '/assets/img/intro/basicheart.png' | relative_url }}",
-        "{{ '/assets/img/intro/redheart.png' | relative_url }}",
-        "{{ '/assets/img/intro/greenheart.png' | relative_url }}",
-        "{{ '/assets/img/intro/flower.png' | relative_url }}",
-        "{{ '/assets/img/intro/frame.png' | relative_url }}",
-        "{{ '/assets/img/intro/photobooth.png' | relative_url }}",
-        "{{ '/assets/img/intro/photobook.png' | relative_url }}",
-        "{{ '/assets/img/intro/party.png' | relative_url }}"
+        "{{ site_root }}/assets/img/intro/camera.png",
+        "{{ site_root }}/assets/img/intro/basicheart.png",
+        "{{ site_root }}/assets/img/intro/redheart.png",
+        "{{ site_root }}/assets/img/intro/greenheart.png",
+        "{{ site_root }}/assets/img/intro/flower.png",
+        "{{ site_root }}/assets/img/intro/frame.png",
+        "{{ site_root }}/assets/img/intro/photobooth.png",
+        "{{ site_root }}/assets/img/intro/photobook.png",
+        "{{ site_root }}/assets/img/intro/party.png"
       ];
     </script>
-    <script src="{{ '/assets/js/intro.js' | relative_url }}" defer></script>
+    <script src="{{ site_root }}/assets/js/intro.js" defer></script>
   </body>
 </html>

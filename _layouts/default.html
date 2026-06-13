@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <html class="">
   <head>
+    {% include site-root.html %}
     <meta charset="UTF-8">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,7 +18,8 @@
         {{ page.title }} | {{ site.title }}
       {% endif %}
     </title>
-    <link rel="stylesheet" href="{{ site.github.url }}/assets/css/all.css">
+    <link rel="stylesheet" href="{{ site_root }}/assets/css/fonts.css">
+    <link rel="stylesheet" href="{{ site_root }}/assets/css/all.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <!-- Use Atom -->

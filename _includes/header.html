@@ -1,6 +1,6 @@
 <header class="bs-header">
   <div class="bs-header__inner">
-    <a class="bs-header__brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }}">
+    <a class="bs-header__brand" href="{{ site_root }}/" aria-label="{{ site.title }}">
       <span class="bs-header__brand-text">{{ site.title }}</span>
     </a>
 
@@ -32,7 +32,7 @@
           <li class="bs-header__item">
             <a
               class="bs-header__link {% if is_active %}is-active{% endif %}"
-              href="{{ item.url | prepend: '/' | relative_url }}"
+              href="{{ site_root }}{{ item.url | prepend: '/' }}/"
               {% if is_active %}aria-current="page"{% endif %}
             >
               {{ item.name }}
